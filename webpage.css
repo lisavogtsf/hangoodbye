@@ -1,0 +1,51 @@
+div,
+p,
+body,
+h1,
+{
+	display:block;
+	margin:0;
+	padding:0;
+	border:none;
+	background-color: #d3d3d3;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	position:relative;
+	text-align:center;
+	z-index:1;
+	line-height: 150%;
+}
+.page-header {
+	background: #22313F;
+	color: #fff;
+	padding: 30px;
+	margin-bottom: 15px;
+}
+.content {
+	padding: 30px;
+}
+
+p
+{	margin-top: 0; 
+	text-align: justify;
+
+	font-variant:small-caps;
+	font-family: arial;
+}
+h1
+{	font-style: bold;
+	font-family: arial;
+	height:50px;
+	line-height: 1.25em;
+	font-size: 21px;
+}
+
+.left {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
